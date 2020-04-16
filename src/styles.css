@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -31,9 +33,27 @@ button {
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #816cc8;
+}
+
+button:active {
+  background: #6146ba;
 }
 
 div li button {
   margin: 0 15px;
   background: #ca4949;
+  padding: 2px 6px;
+}
+
+div li button:hover {
+  background: #d05d5d;
+}
+
+div li button:active {
+  background: #c13838;
 }
