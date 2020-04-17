@@ -7,6 +7,7 @@ Basta executar `yarn && yarn start` para instalar as dependências e iniciar o p
 ![yarn](https://user-images.githubusercontent.com/28319535/79516442-cbd17780-8021-11ea-88f8-792e46ab2e8d.png)
 
 **Prévia:**
+
 ![preview](https://user-images.githubusercontent.com/28319535/79518566-d2fb8400-8027-11ea-8069-b72098be5025.gif)
 
 
