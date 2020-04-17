@@ -35,6 +35,9 @@ function App() {
 
   return (
     <div>
+      <button onClick={handleAddRepository}>Adicionar</button>
+      <h3>Lista de repositórios:</h3>
+      {!respositories.length && <p>Nenhum repositório encontrado.</p>}
       <ul data-testid="repository-list">
         {respositories.map((repository) => (
           <li key={repository.id}>
@@ -48,8 +51,6 @@ function App() {
           </li>
         ))}
       </ul>
-
-      <button onClick={handleAddRepository}>Adicionar</button>
     </div>
   );
 }
